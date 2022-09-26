@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContent{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 100%;
+    width: 80%;
+    margin: 50px auto;
+    line-height: 25px;
+}
+
+.imagery{
+    border: 3px burlywood solid;
+    min-width: 250px;
+   height: 170px;
+    border-radius: 3px;
+}
+.imagery img{
+    width: 100%;
+    height: 100%;
+}
+
+.flexItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    border-style:dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.flexCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (max-width: 700px){
+    .mainContent{
+        display: block;
+    }
+}
